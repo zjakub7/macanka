@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+		<style>
+			a{
+			text-decoration: none;
+			color: lightgray;
+			}
+		</style>
+	</head>
+<body style="color:lightgray; background-color:black;">
+
+<div style="margin-top:50px; margin-bottom:50px; margin-left:70px; margin-right:40px;">
+<a id="start">START</a><br>
+
+
+//Pytania<br>
+<a href="#1.0">1.0 Wymień i opisz przemiany gazowe:</a><br>
+<a href="#1.1">1.1 Napisz równania gazowe:</a><br>
+<a href="#1.2">1.2 Narysuj symbole pneumatyczne:</a><br>
+<a href="#1.3">1.3 Wyjaśnij pojęcia: przepływ, natężenie przepływu. Jaka jednostka?</a><br>
+<a href="#1.4">1.4 Opisz i wyjaśnij prawo Paschala:</a><br>
+<a href="#1.5">1.5 Wyjaśnij pojęcie siła teoretyczna + wzór</a><br>
+<a href="#1.6">1.6 Porównaj siłowniki jedno i dwustronnego działania. + wzory</a><br>
+<a href="#1.7">1.7 Wymień wady i zalety pneumatyki:</a><br>
+<a href="#1.8">1.8 Wymień wady i zalety hydrauliki:</a><br>
+<a href="#1.9">1.9 Dokonaj klasyfikacji siłowników pneumatycznych i hydraulicznych.</a><br>
+<a href="#1.10">1.10 Opisz podział zaworów oraz wymagania i funkcje jakie muszą spełniać.</a><br>
+<a href="#1.11">1.11 Co to jest wyspa zaworowa?</a><br>
+<a href="#1.12">1.12 Podział silników pneumatycznych:</a><br>
+<a href="#1.13">1.13 Zastosowanie silników pneumatycznych.</a><br>
+<a href="#1.14">1.14 Co to jest podciśnienie?</a><br>
+<a href="#1.15">1.15 Co to jest zwężka wenturiego?</a><br>
+<a href="#1.16">1.16 Co to są Ejectory?</a><br>
+<a href="#1.17">1.17 Jaka różnica między pompą a Ejectory?</a><br>
+<a href="#1.18">1.18 Jakie są główne różnice między hydrauliką a pneumatyką?</a><br>
+<a href="#1.19">1.19 Czym różni się chwytak bernuliego od klasycznej przyssawki?</a><br>	
+<a href="#1.20">1.20 Podaj przykładowe elementy które współpracują ze sterownikami PLC:</a><br>
+<a href="#1.21">1.21 Czym różni się zawór bistabilny od zaworu monostabilnego?</a><br>
+<a href="#1.22">1.22 Podział na hydrostatyczne i hydrokinetyczne.</a><br>
+<a href="#1.23">1.23 Z czego składa się układ pneumatyczny, hydrauliczny?</a><br>
+<a href="#1.24">1.24 Jak dobieramy ciecz do hydrauliki?</a><br>
+
+
+
+
+
+<br><br>//Odpowiedzi<br><br>
+<a href="#start" id="1.0">1.0 
+    Izotermiczna - stała temepratura, pV=const.<br>
+    Izobaryczna - stałe ciśnienie, V/t=const.<br>
+    Izochoryczna - stała objętość, p/T=const.<br>
+    Adiabatyczna - Bez wymiany ciepła z otoczeniem, pV^k=const(k to wykładnik adiabaty).<br>
+</a><br>
+<a href="#start" id="1.1">1.1 
+    Prawo Boyle’a–Marriotte’a<br>
+    Zależność objętości gazu doskonałego od ciśnienia, przy stałej temperaturze. Objętość V danej masy gazu doskonałego jest odwrotnie proporcjonalna do jego ciśnienia p, przy zachowaniu stałej temperatury T.
+    Prawo Gay-Lussaca<br>
+    Zależność objętości gazu doskonałego od temperatury, przy stałym ciśnieniu. Pod stałym ciśnieniem p objętość V danej masy gazu doskonałego jest wprost proporcjonalna do temperatury bezwzględnej T. Zależności między objętością V, ciśnieniem p i temperaturą T gazu opisują tzw. równania stanu gazu doskonałego. 
+    Równanie Clapeyrona<br>
+    Równanie stanu opisujące związek pomiędzy temperaturą, ciśnieniem i objętością gazu doskonałego, a w sposób przybliżony opisujące gazy rzeczywiste
+</a><br>
+<a href="#start" id="1.2">1.2 </a><br>
+<a href="#start" id="1.3">1.3 
+    Przepływ to proces przemieszczania się cieczy lub gazu w czasie, pod wpływem różnicy ciśnień w układzie. 
+    <br>Natężenie przepływu to ilość płynu przepływająca przez przekrój poprzeczny w jednostce czasu. 
+    <br>Miarą przepływu w jednostkach SI jest [m^3/s], natomiast używa się często [L/min].
+
+</a><br>
+<a href="#start" id="1.4">1.4 
+    Prawo Pascala mówi, że zmiana ciśnienia wywierana na zamkniętą ciecz lub gaz jest przenoszona równomiernie we wszystkich kierunkach na cały płyn oraz na ścianki naczynia, w którym ten płyn się znajduje. </a><br>
+<a href="#start" id="1.5">1.5 
+    Siła teoretyczna to siła jaką generuje ciśnienie kazu, działająca na powierzchnie tłoka.<br>
+    Jest obliczana za pomocą wzoru F=p*A (F-siła, p-ciśnienie, A-powierzchnia tłoka), przy założeniu warunków idealnych oraz bez uwzględnienia strat.</a><br>
+<a href="#start" id="1.6">1.6 
+Siłowniki jednostronnego działania
+Budowa i działanie:
+Siłownik jednostronnego działania wykorzystuje ciśnienie (powietrza lub cieczy) tylko po jednej stronie tłoka. Druga strona tłoka jest zazwyczaj wyposażona w sprężynę, która powraca tłok do pozycji wyjściowej, gdy ciśnienie zostanie zwolnione.
+
+Zastosowanie:
+Prostota i niski koszt.
+Stosowane tam, gdzie nie jest potrzebne sterowanie ruchem w obu kierunkach.
+Typowe zastosowania: prasy, zawory bezpieczeństwa, hamulce.
+Wady i zalety:
+Zalety:
+
+Prosta konstrukcja i łatwa konserwacja.
+Mniej elementów, co oznacza mniejsze ryzyko awarii.
+Niższe koszty w porównaniu do siłowników dwustronnego działania.
+Wady:
+
+Ograniczona siła w jednym kierunku.
+Potrzebna sprężyna, która może się zużywać.
+Wzory:
+Dla siłownika jednostronnego działania, siła generowana w jednym kierunku wynosi:<br />
+F=p⋅A<br />
+gdzie:
+F to siła,<br />
+p to ciśnienie,<br />
+A to pole powierzchni tłoka.
+
+<br />Siłowniki dwustronnego działania
+Budowa i działanie:
+Siłownik dwustronnego działania ma komory ciśnieniowe po obu stronach tłoka. Ciśnienie może być przyłożone zarówno do jednej, jak i do drugiej komory, co umożliwia ruch tłoka w obu kierunkach.
+
+Zastosowanie:
+Szerokie zastosowanie w przemysłowych procesach automatyzacji.
+Stosowane tam, gdzie wymagane jest precyzyjne sterowanie ruchem w obu kierunkach.
+Typowe zastosowania: maszyny CNC, robotyka, podnośniki.
+Wady i zalety:
+Zalety:
+
+Możliwość precyzyjnego sterowania ruchem w obu kierunkach.
+Większa elastyczność zastosowania.
+Wady:
+
+Bardziej skomplikowana konstrukcja.
+Wyższe koszty zakupu i konserwacji.
+Wzory:
+Dla siłownika dwustronnego działania, siła generowana w jednym kierunku (przemieszczanie tłoka) wynosi:<br />
+
+F=p⋅A
+<br />
+gdzie
+F to siła przyłożona do powierzchni pełnego tłoka,
+p to ciśnienie,
+A to pole powierzchni tłoka.
+Siła generowana w przeciwnym kierunku (powrót tłoka) wynosi:<br />
+
+
+F =p⋅(A−a)
+<br />
+gdzie:
+F to siła powrotna,<br />
+a to pole powierzchni pręta tłoka (ponieważ pręt zmniejsza efektywną powierzchnię tłoka).</a><br>
+<a href="#start" id="1.7">1.7<br> 
+    <b>Zalety pneumatyki:</b><br>
+    •Bezpieczeństwo<br>
+    •Prostota i niezawodność<br>
+    •Szybkość działania<br>
+    •Łatwość konserwacji<br>
+    •Odporność na przeciążenia<br>
+    <b>Wady pneumatyki:</b><br>
+    •Niska efektywność energetyczna<br>
+    •Hałas<br>
+    •Ograniczona siła<br>
+    •Kompesja powietrza<br>
+    •Wrażliwość na zanieczyszczenia<br>
+</a><br>
+<a href="#start" id="1.8">1.8 <br>
+    <b>Zalety hydrauliki</b><br>
+    •Dostarczanie energii mechanicznej<br>
+    •Duża wydajność energetyczna<br>
+    •Mała bezwładność<br>
+    •Samo smarowność<br>
+    •Łatwość kontroli obciązenia<br>
+    •Automatyzacja<br>
+    <b>Wady hydrauliki</b><br>
+    •Problem z uszczelnieniem<br>
+    •Duże straty energii<br>
+    •Czułość ukladu na lepkie ciecze<br>
+    •Trudności w czyszczeniu<br>
+    •Hałaśliwość układów<br>
+    •Trudności w synchronizacji<br>
+</a><br>
+<a href="#start" id="1.9">1.9 
+
+    Klasyfikację siłowników pneumatycznych i hydraulicznych możemy podzielić na:<br>
+    •Sposób działania: Jednostronnego, drustronnego działania.<br>
+    •Liczbę pozycji roboczych: Jedno, dwu i wielo pozycyjne.<br>
+    •Konstrukcję: Siłowniki tłokowe, membranowe, mechaniczne.<br>
+    •Rodzaj ruchu: Liniowe, obrotowe.<br>
+    •Specjalne cechy konstrukcyjne: Z prowadzeniem, teleskopowe, z hamulcem.<br>
+
+</a><br>
+<a href="#start" id="1.10">1.10 <br>
+
+    Opisz podział zaworów:<br>
+
+Zawory możemy podzielić ze względy na funkcje:<br>
+a.1 Zawory sterujące przepływem:<br>
+	Zawory zwrotne(jednokierunkowe) które pozwalają na przepływ powietrza tylko w jednym kierunku.<br>
+	Zawory dławiące, które ograniczają przeływ.<br>
+a.2 Zawory sterujce kierunkiem:<br>
+	Zawór 2/2 - Mają dwa porty(wejście, wyjście) oraz dwa stany (otwarty,zamknięty). Otwiera i zamyka.<br>
+	Zawór 3/2 - Mają trzy porty oraz dwa stany. Siłownik jednostronnego działania.<br>
+	Zawór 4/2 - Mają 4 porty i dwa stany. Siłownik drustronnego działania.<br>
+	Zawór 5/2 - Mają 5 portów i dwa stany. Siłownik drustronnego działania.<br>
+	Zawór 5/3 - Mają 5 portów i trzy stany. Zaawansowane sterowanie ruchem siłowników.<br>
+
+a.3 Zawory bezpieczeństwa: Zawór nadmiarowy. Otwiera się przy ustalonym ciśnieniu.<br>
+a.4 Zawór regulacyjny: Utrzymuje stałe ciśnienie na wyjściu.<br>
+a.5 Zawór odcinający (kulowy): Proste zawory służące do otwierania i zamykania przepływu.<br>
+
+b.1 Podział na sposób sterowania: Ręczne, elektromagnetyczne, pneumatyczne, mechaniczne.<br>
+c.1 Podział na konstrukcje: Zawory membranowe, tłokowe, iglicowe.<br>
+
+Zawory muszę spełniac różne funkcje takie jak: <br>
+Sterowanie kierunkiem przepływu, <br>
+Regulacja prędkości, <br>
+Regukacja ciśnienia, <br>
+Kontrola ciśnienia, <br>
+Bezpieczeństwo, <br>
+Odcinanie przepłytu.<br>
+	
+
+</a><br>
+<a href="#start" id="1.11">1.11 <br>
+    Wyspa zaworowa to zintegrowany zespół zaworów pneumatycznych montowanych na wspólnej podstawie, który umożliwia centralne sterowanie wieloma obwodami pneumatycznymi.
+</a><br>
+<a href="#start" id="1.12">1.12 <br>
+
+    Silniki tłokowe<br> wykorzystują ruch tłoka do generowania ruchu obrotowego lub liniowego. Są często wykorzystywane w siłownikach pneumatycznych do napędzania różnych mechanizmów, takich jak zawory, klamry czy narzędzia montażowe.<br>
+    
+    Silniki łopatkowe<br> wykorzystują strumień sprężonego powietrza do obracania łopatek, co przekłada się na generowanie ruchu obrotowego. Są stosowane w dmuchawach, wentylatorach, kompresorach i innych urządzeniach pneumatycznych wymagających dużego przepływu powietrza.<br>
+    
+    Silniki osiowe<br> wykorzystują ciśnienie sprężonego powietrza do generowania momentu obrotowego wokół osi. Są stosowane w przekładniach, przenośnikach taśmowych, wiertarkach i innych urządzeniach pneumatycznych wymagających dużej siły i momentu obrotowego.<br>
+    
+    Silniki krokowe<br> działają na zasadzie przekładania sprężonego powietrza do cylindra, co powoduje przesunięcie o stałą wartość. Są stosowane w zaworach pneumatycznych, przepustnicach, oraz w innych aplikacjach, gdzie wymagane są precyzyjne i kontrolowane ruchy.<br>
+    
+    Silniki zębate<br> wykorzystują sprężone powietrze do napędzania zębatek, które obracają się wokół osi. Są stosowane w zaworach, przekładniach, i innych urządzeniach pneumatycznych wymagających płynnego i precyzyjnego przekazywania momentu obrotowego.</a><br>
+<a href="#start" id="1.13">1.13 <br>
+
+    • Automatyzacja procesów przemysłowych:<br> Silniki pneumatyczne są szeroko stosowane w różnego rodzaju aplikacjach automatyzacji, takich jak montaż, pakowanie, i przemieszczanie materiałów w liniach produkcyjnych.<br>
+
+    • Sterowanie zaworami:<br> Wykorzystywane są do sterowania różnymi rodzajami zaworów pneumatycznych, takimi jak zawory dwustanowe, trójstanowe i proporcjonalne, które kontrolują przepływ powietrza w systemach pneumatycznych.<br>
+    • Napędy siłowników:<br> Silniki pneumatyczne są wykorzystywane do napędzania siłowników pneumatycznych, które wykonują różnorodne zadania w przemyśle, od przenoszenia ładunków do wykonywania skomplikowanych operacji montażowych.<br>
+    • Przenoszenie energii:<br> Stosowane są w różnych urządzeniach pneumatycznych, takich jak młoty pneumatyczne, piły, wiertarki i szlifierki, do przenoszenia energii i wykonywania prac mechanicznych.<br>
+    • Podtrzymywanie ciśnienia:<br> Wykorzystywane są w systemach pneumatycznych do podtrzymywania ciśnienia w zbiornikach i układach pneumatycznych, co zapewnia niezawodność i stabilność działania systemów.<br>
+    
+</a><br>
+<a href="#start" id="1.14">1.14 <br>
+    Podciśnienie to sytuacja, w której ciśnienie w danym obszarze jest niższe niż ciśnienie otoczenia. Może być tworzone przez różne czynniki, takie jak wytłaczanie powietrza z zamkniętego naczynia, ssanie przez wentylator lub efekt wytwarzany przez pompę próżniową. 
+</a><br>
+<a href="#start" id="1.15">1.15 <br>
+    Zwężka Venturiego to urządzenie stosowane w przemyśle i inżynierii, które wykorzystuje zjawisko przyspieszania przepływu cieczy lub gazu w wąskim przewężeniu, aby zmniejszyć ciśnienie w danym punkcie. Składa się z dwóch stożkowych przewężek, połączonych cylindrycznym kanałem. Kiedy płyn przepływa przez zwężkę, jego prędkość wzrasta, a ciśnienie spada. Zwężka Venturiego jest wykorzystywana w różnych aplikacjach, takich jak systemy pomiarowe, układy klimatyzacyjne czy karburatory w silnikach spalinowych.
+</a><br>
+<a href="#start" id="1.16">1.16 <br>
+    Ejector, znany również jako układ ejekcyjny, to urządzenie wykorzystywane do pobierania lub pompujące płyny, gazy lub mieszanki z jednej przestrzeni do drugiej za pomocą strumienia czynnika roboczego, zazwyczaj sprężonego powietrza lub pary. Jest to rodzaj pompy bez ruchomych części mechanicznych. </a><br>
+<a href="#start" id="1.17">1.17 <br>
+    Główna różnica między pompą a ejectorem polega na sposobie generowania przepływu. Pompę napędza zazwyczaj silnik elektryczny lub inny źródło energii mechanicznej, który działa na ruchome elementy pompy (np. tłoki, wirniki), aby przesuwać płyn lub gaz. Natomiast ejector wykorzystuje zjawisko przyspieszania przepływu czynnika roboczego (np. sprężonego powietrza) w wąskim przewężeniu, aby stworzyć podciśnienie i w ten sposób pobierać lub przepompowywać płyn lub gaz bez ruchomych części mechanicznych.
+</a><br>
+<a href="#start" id="1.18">1.18 <br>
+    1.	Medium pracy:<br>
+    •	Hydraulika:<br> Wykorzystuje płyn, zazwyczaj olej hydrauliczny, który jest praktycznie nieściśliwy. Olej hydrauliczny przenosi siłę poprzez niewielkie przemieszczenia płynu pod wysokim ciśnieniem.<br>
+    •	Pneumatyka:<br> Wykorzystuje sprężone powietrze jako medium pracy. Powietrze jest znacznie bardziej sprężyste niż olej hydrauliczny i można je znacznie bardziej skompresować.<br>
+    2.	Ciśnienie:<br>
+    •	Hydraulika:<br> Działa przy wyższych ciśnieniach, co pozwala na uzyskanie większych sił i momentów obrotowych. Ciśnienie w układach hydraulicznych może być nawet kilkaset razy większe niż w pneumatyce.<br>
+    •	Pneumatyka:<br> Działa przy niższych ciśnieniach niż hydraulika. Pomimo tego, że ciśnienia są znacznie niższe, pneumatyka jest nadal w stanie generować znaczne siły i momenty obrotowe.<br>
+    3.	Skalowanie:<br>
+    •	Hydraulika:<br> Jest bardziej skomplikowana do skalowania ze względu na wysokie ciśnienia, co wymaga precyzyjnych komponentów i systemów.<br>
+    •	Pneumatyka:<br> Jest łatwiejsza do skalowania ze względu na niższe ciśnienia, co pozwala na stosowanie prostszych i tańszych komponentów.<br>
+    4.	Cechy pracy:<br>
+    •	Hydraulika:<br> Charakteryzuje się płynnymi, nieliniowymi ruchami, które pozwalają na precyzyjną kontrolę prędkości i siły.<br>
+    •	Pneumatyka:<br> Charakteryzuje się szybkimi, liniowymi ruchami, co pozwala na szybkie przemieszczanie się siłowników i innych urządzeń.<br>0
+    
+</a><br>
+<a href="#start" id="1.19">1.19 <br>
+    1. Zasada działania:<br>
+    •	Chwytak Bermuliego:<br>
+    •	Wykorzystuje różnicę ciśnień do chwytania przedmiotów.<br>
+    •	Tworzy podciśnienie między powierzchnią chwytaka a przedmiotem, co powoduje <br>przyssanie go do chwytaka.<br>
+    •	Może być stosowany do chwytania różnych kształtów i rodzajów przedmiotów, zarówno płaskich, jak i nieregularnych.<br>
+    •	Klasyczna przyssawka:<br>
+    •	Opiera się na utworzeniu podciśnienia za pomocą elastycznej przyssawki (często z gumy lub silikonu), która po przyłożeniu do gładkiej powierzchni, przykleja się do niej.<br>
+    •	Zazwyczaj stosowana jest do chwytania płaskich i gładkich powierzchni, takich jak szkło, ceramika, płyty, itp.<br>
+    2. Konstrukcja:<br>
+    •	Chwytak Bermuliego:<br>
+    •	Może być wyposażony w ruchome elementy, które dostosowują się do różnych kształtów przedmiotów.<br>
+    •	Niektóre modele posiadają regulację siły chwytania.<br>
+    •	Konstrukcja jest bardziej złożona niż klasyczna przyssawka.<br>
+    •	Klasyczna przyssawka:<br>
+    •	Składa się z elastycznej przyssawki zamocowanej na uchwycie.<br>
+    •	Brak ruchomych części w konstrukcji.<br>
+    3. Zastosowania:<br>
+    •	Chwytak Bermuliego:<br>
+    •	Uniwersalny w zastosowaniu, może chwytać różnorodne kształty przedmiotów, od płaskich po nieregularne.<br>
+    •	Wykorzystywany w przemyśle do chwytania różnych elementów o różnych kształtach, wielkościach i materiałach.<br>
+    •	Klasyczna przyssawka:<br>
+    •	Stosowana głównie do chwytania płaskich i gładkich powierzchni, takich jak szkło, ceramika, płyty itp.<br>
+    •	Często wykorzystywana w branży szklarskiej, budowlanej oraz w produkcji mebli i materiałów wykończeniowych.<br>
+    Podsumowując, chwytak Bermuliego jest bardziej wszechstronny i elastyczny w zastosowaniu, podczas gdy klasyczna przyssawka jest skoncentrowana głównie na chwytaniu płaskich i gładkich powierzchni.<br>
+    
+</a><br>
+<a href="#start" id="1.20">1.20 <br>
+    Pneumatyka i programowalne sterowniki logiczne (PLC) są ściśle powiązanymi technologiami w automatyce przemysłowej. Pneumatyka zapewnia fizyczne działanie i napęd w systemach automatyzacji poprzez wykorzystanie sprężonego powietrza do sterowania siłownikami i innymi urządzeniami. Natomiast PLC pełni rolę mózgu systemu, zarządzając operacjami, monitorując sygnały wejściowe i wyjściowe, oraz realizując programy logiczne, które sterują działaniem urządzeń pneumatycznych i innych elementów w systemie automatyki. Współpraca między pneumatyką a PLC
+</a><br>
+<a href="#start" id="1.21">1.21 
+    Zawór bistabilny (dwustanowy) ma dwa stabilne stany. Oznacza to, że pozostaje w ostatnim ustawionym stanie nawet po zaniku sygnału sterującego. Zmiana stanu wymaga impulsu sterującego.<br>
+
+    Zawór monostabilny (jednostanowy) ma jeden stabilny stan. Po zaniku sygnału sterującego automatycznie powraca do swojego pierwotnego stanu.    
+</a><br>
+<a href="#start" id="1.22">1.22 
+Siłowniki hydrostatyczne opierają się na wykorzystaniu energii ciśnienia cieczy. <br>
+Siłowniki hydrokinetyczne opierają się na wykorzystaniu energii kinetycznej cieczy
+
+</a><br>
+<a href="#start" id="1.23">1.23 <br>
+Hydrauliczny  Silnik – pompa-zawory-siłownik-element<br>
+Pneumatyczny Kompresor – zawory – siłowniki – element napędzany.
+</a><br>
+<a href="#start" id="1.24">1.24 <br>
+    Dobierając ciecz do układów hydraulicznych, trzeba zwrócić uwagę na następujące czynniki: mała zmiana lepkości, mała ściśliwość, wysoka temperatura zapłonu, niska temperatura krzepnięcia, duże ciepło właściwe, duża przewodność cieplna, odporność na pienienie i utlenianie się, jednorodność struktury.</a><br>
+
+
+</div>
+</body>
+
+</html>

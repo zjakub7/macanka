@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body style="background-color:black">
+<p class="w3-sans-serif" style="margin:45px 25px; color:lightgray">
+
+<br><b>1. Systemy pomiarowe: definicja, konfiguracja systemów pomiarowych.</b><br>
+System pomiarowy to zespół urządzeń i oprogramowania służący do rejestrowania i analizy danych pomiarowych. Składa się z czujników, układów przetwarzania sygnałów, urządzeń akwizycji danych i interfejsu użytkownika. Konfiguracja polega na doborze komponentów odpowiednich do danego zadania pomiarowego.
+
+<br><b>2. Struktura, elementy składowe systemów pomiarowych.</b><br>
+Czujniki, przetworniki, układy kondycjonowania sygnału, przetworniki A/C, komputer (lub mikrokontroler), interfejs komunikacyjny oraz oprogramowanie analizujące i prezentujące dane.
+
+<br><b>3. System interfejsu, rodzaje interfejsów.</b><br>
+System interfejsu umożliwia komunikację między komponentami systemu. Przykłady: USB, RS232, GPIB, Ethernet, CAN, SPI, I2C.
+
+<br><b>4. Wirtualne przyrządy pomiarowe i ich elementy składowe.</b><br>
+Wirtualne przyrządy pomiarowe to programowe odpowiedniki tradycyjnych urządzeń (np. oscyloskopów), składające się z interfejsu użytkownika, oprogramowania analitycznego i sprzętu pomiarowego (DAQ).
+
+<br><b>5. Zalety wirtualnych przyrządów pomiarowych.</b><br>
+Niższy koszt, elastyczność, możliwość rozbudowy, szybka rekonfiguracja, integracja wielu funkcji w jednym systemie, łatwe archiwizowanie i analiza danych.
+
+<br><b>6. Zalety LabView jako narzędzia do budowania wirtualnych przyrządów pomiarowych.</b><br>
+Programowanie graficzne (łatwa obsługa), szybkie prototypowanie, ogromna liczba bibliotek i gotowych funkcji, wsparcie dla wielu interfejsów i urządzeń.
+
+<br><b>7. Zalety stosowania wirtualnych przyrządów pomiarowych w procesie inżynierskim (etap badania, testowania, wytwarzania).</b><br>
+Szybsze projektowanie, łatwiejsze testowanie i weryfikacja, możliwość symulacji, elastyczność w zmianie konfiguracji, automatyzacja pomiarów.
+
+<br><b>8. Interfejs szeregowy: USB.</b><br>
+USB (Universal Serial Bus) to szybki i uniwersalny interfejs komunikacyjny, stosowany do łączenia komputera z urządzeniami zewnętrznymi – oferuje zasilanie, komunikację, plug&play.
+
+<br><b>9. Działanie struktury „case” przy tworzeniu programów w LabView.</b><br>
+Struktura „case” działa jak instrukcja warunkowa – umożliwia wykonanie różnych bloków kodu w zależności od wartości warunku (np. True/False, liczby, tekstu).
+
+<br><b>10. Rodzaje struktur w LabView oferujące powtarzanie operacji (pętle).</b><br>
+While Loop – działa dopóki warunek jest spełniony. For Loop – wykonuje określoną liczbę iteracji. Obie pozwalają na akwizycję danych w czasie rzeczywistym.
+
+<br><b>11. Elementy LabView przydatne podczas projektowania wirtualnego oscyloskopu.</b><br>
+Wyświetlacze fali (Waveform Chart/Graph), funkcje skalowania, zapis danych do pliku, kursory, filtry, przetwarzanie FFT, triggerowanie sygnałów.
+
+<br><b>12. Wykorzystanie DFT w wirtualnych przyrządach pomiarowych.</b><br>
+DFT (dyskretna transformata Fouriera) umożliwia analizę częstotliwościową sygnałów – np. w analizatorach widma i oscyloskopach cyfrowych.
+
+<br><b>13. Wykorzystanie struktury „Event” do projektowania w LabView wirtualnych przyrządów pomiarowych.</b><br>
+Event Structure reaguje na zdarzenia (kliknięcia, zmiany wartości), co pozwala tworzyć dynamiczne i interaktywne aplikacje – np. przyciski start/stop, wybór kanałów.
+
+<br><b>14. Okno czasowe w pomiarach DFT.</b><br>
+Okno czasowe ogranicza sygnał do określonego przedziału – stosuje się funkcje okna (np. Hanninga, Hamminga), aby zredukować efekty przecieku widma.
+
+<br><b>15. Filtry cyfrowe i ich zastosowania, filtry niekierunkowe i rekursywne.</b><br>
+Filtry cyfrowe przetwarzają sygnał w celu usunięcia zakłóceń. Niekierunkowe (FIR) – mają stałą odpowiedź impulsową. Rekursywne (IIR) – korzystają z poprzednich wartości sygnału i wyjścia.
+
+<br><b>16. Filtry adaptacyjne i ich zastosowania.</b><br>
+Filtry adaptacyjne dostosowują swoje parametry w czasie rzeczywistym – używane m.in. w komunikacji, redukcji szumów, korekcji echa.
+
+<br><b>17. Analiza czasowo-częstotliwościowa: krótkookresowa transformata Fouriera, transformata falkowa.</b><br>
+STFT (Short-Time Fourier Transform) dzieli sygnał na krótkie fragmenty i analizuje je osobno. Transformata falkowa (Wavelet) pozwala analizować sygnały o zmiennej częstotliwości z dużą rozdzielczością czasową.
+
+</p>
+</body>
+</html>
